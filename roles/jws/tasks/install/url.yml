@@ -17,3 +17,5 @@
     mode: 0640
     owner: "{{ jws.user }}"
     group: "{{ jws.group }}"
+  retries: 5
+  delay: 10
