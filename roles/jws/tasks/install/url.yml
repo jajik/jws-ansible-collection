@@ -18,4 +18,4 @@
     owner: "{{ jws.user }}"
     group: "{{ jws.group }}"
   retries: "{{ lookup('env', 'DOWNLOAD_RETRIES', default=5) }}"
-  delay:   "{{ lookup('env', 'DOWNLOAD_DELAY', default=10) }}"
+  delay: "{{ lookup('env', 'DOWNLOAD_DELAY', default=10) }}"
